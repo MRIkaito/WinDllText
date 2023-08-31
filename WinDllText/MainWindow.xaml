@@ -1,0 +1,15 @@
+﻿<Window x:Class="WinDllText.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WinDllText"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="348.555" Width="746.676">
+    <Grid>
+        <Button x:Name="uxCallMessageDialog" Content="メッセージダイアログ呼び出し" HorizontalAlignment="Left" Margin="85,58,0,0" VerticalAlignment="Top" Width="156" Click="uxCallMessageDialog_Click"/>
+        <Button x:Name="uxCallImputDialog" Content="入力ダイアログ呼び出し" HorizontalAlignment="Left" Margin="85,92,0,0" VerticalAlignment="Top" Width="156" Click="uxCallImputDialog_Click"/>
+        <TextBox x:Name="uxGetMessage" IsReadOnly="True" HorizontalAlignment="Left" Height="23" Margin="281,92,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="316"/>
+
+    </Grid>
+</Window>

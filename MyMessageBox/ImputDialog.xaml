@@ -1,0 +1,15 @@
+﻿<Window x:Class="MyMessageBox.ImputDialog"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MyMessageBox"
+        mc:Ignorable="d"
+        Title="ImputDialog" Height="194.348" Width="511.739" ResizeMode="NoResize" WindowStartupLocation="Manual">
+    <Grid>
+        <TextBox x:Name="uxImputText" Height="58" AcceptsReturn="True" Margin="56,27,55,0" TextWrapping="Wrap" VerticalAlignment="Top" TextChanged="uxImputText_TextChanged"/>
+        <Button x:Name="uxOK" Content="登録" HorizontalAlignment="Left" Height="24" Margin="56,106,0,0" VerticalAlignment="Top" Width="128" Click="uxOK_Click"/>
+        <Button x:Name="uxCancel" Content="中止" HorizontalAlignment="Right" Height="24" Margin="0,106,55,0" VerticalAlignment="Top" Width="128" Click="uxCancel_Click"/>
+
+    </Grid>
+</Window>
